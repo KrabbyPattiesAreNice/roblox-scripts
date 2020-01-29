@@ -9,6 +9,7 @@ local Logo = Instance.new("TextLabel")
 local Dex = Instance.new("TextButton")
 local Fathom = Instance.new("TextButton")
 local PFHAXX = Instance.new("TextButton")
+local IY = Instance.new("TextButton")
 local Open = Instance.new("TextButton")
 
 AmBonaGUI.Name = "AmBonaGUI"
@@ -101,6 +102,20 @@ PFHAXX.TextScaled = true
 PFHAXX.TextSize = 14.000
 PFHAXX.TextWrapped = true
 
+IY.Name = "IY"
+IY.Parent = MainFrame
+IY.BackgroundColor3 = Color3.fromRGB(156, 156, 156)
+IY.BorderColor3 = Color3.fromRGB(0, 0, 0)
+IY.BorderSizePixel = 5
+IY.Position = UDim2.new(0.356140345, 0, 0.338422388, 0)
+IY.Size = UDim2.new(0, 165, 0, 39)
+IY.Font = Enum.Font.Code
+IY.Text = "Infinate Yield"
+IY.TextColor3 = Color3.fromRGB(0, 0, 0)
+IY.TextScaled = true
+IY.TextSize = 14.000
+IY.TextWrapped = true
+
 Open.Name = "Open"
 Open.Parent = AmBonaGUI
 Open.BackgroundColor3 = Color3.fromRGB(106, 106, 106)
@@ -115,7 +130,7 @@ Open.TextScaled = true
 Open.TextSize = 14.000
 Open.TextWrapped = true
 
-local function HAKJ_fake_script()
+local function FKPGJGT_fake_script()
 	local script = Instance.new('LocalScript', CloseButton)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -123,38 +138,46 @@ local function HAKJ_fake_script()
 		script.Parent.Parent.Parent.Parent.Open.Visible = true
 	end)
 end
-coroutine.wrap(HAKJ_fake_script)()
-local function RSQFE_fake_script()
+coroutine.wrap(FKPGJGT_fake_script)()
+local function LRQCZPH_fake_script()
 	local script = Instance.new('LocalScript', Dex)
 
 	script.Parent.MouseButton1Click:connect(function()
 		loadstring(game:GetObjects("rbxassetid://418957341")[1].Source)()
 	end)
 end
-coroutine.wrap(RSQFE_fake_script)()
-local function FFCNP_fake_script() 
+coroutine.wrap(LRQCZPH_fake_script)()
+local function FAUTZ_fake_script()
 	local script = Instance.new('LocalScript', MainFrame)
 
 	script.Parent.Draggable = true
 end
-coroutine.wrap(FFCNP_fake_script)()
-local function GOSI_fake_script()
+coroutine.wrap(FAUTZ_fake_script)()
+local function KPSX_fake_script()
 	local script = Instance.new('LocalScript', Fathom)
 
 	script.Parent.MouseButton1Click:connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/UmhaEvTT",true))()
 	end)
 end
-coroutine.wrap(GOSI_fake_script)()
-local function RGHT_fake_script()
+coroutine.wrap(KPSX_fake_script)()
+local function GOKJZET_fake_script()
 	local script = Instance.new('LocalScript', PFHAXX)
 
 	script.Parent.MouseButton1Click:connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/XwQciZ4y", true))()
 	end)
 end
-coroutine.wrap(RGHT_fake_script)()
-local function PRJV_fake_script() 
+coroutine.wrap(GOKJZET_fake_script)()
+local function CICIE_fake_script()
+	local script = Instance.new('LocalScript', IY)
+
+	script.Parent.MouseButton1Click:connect(function()
+		loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+	end)
+end
+coroutine.wrap(CICIE_fake_script)()
+local function HCBHN_fake_script()
 	local script = Instance.new('LocalScript', Open)
 
 	script.Parent.Draggable = true
@@ -164,8 +187,8 @@ local function PRJV_fake_script()
 		script.Parent.Parent.MainFrame.Visible = true
 	end)
 end
-coroutine.wrap(PRJV_fake_script)()
-local function EFKBKNZ_fake_script()
+coroutine.wrap(HCBHN_fake_script)()
+local function CHPU_fake_script()
 	local script = Instance.new('LocalScript', AmBonaGUI)
 
 	local blur = Instance.new("BlurEffect", game.Lighting)
@@ -180,4 +203,4 @@ local function EFKBKNZ_fake_script()
 		blur.Enabled = false
 	end)
 end
-coroutine.wrap(EFKBKNZ_fake_script)()
+coroutine.wrap(CHPU_fake_script)()
