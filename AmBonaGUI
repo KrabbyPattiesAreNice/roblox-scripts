@@ -6,10 +6,15 @@ local MainFrame = Instance.new("Frame")
 local Frame = Instance.new("Frame")
 local CloseButton = Instance.new("TextButton")
 local Logo = Instance.new("TextLabel")
+local KillGUI = Instance.new("TextButton")
 local Dex = Instance.new("TextButton")
 local Fathom = Instance.new("TextButton")
 local PFHAXX = Instance.new("TextButton")
 local IY = Instance.new("TextButton")
+local JBAutorob = Instance.new("TextButton")
+local ArsenalGUI = Instance.new("TextButton")
+local JailbreakGUI = Instance.new("TextButton")
+local RamenJBGUI = Instance.new("TextButton")
 local Open = Instance.new("TextButton")
 
 AmBonaGUI.Name = "AmBonaGUI"
@@ -59,6 +64,20 @@ Logo.TextScaled = true
 Logo.TextSize = 14.000
 Logo.TextWrapped = true
 Logo.TextXAlignment = Enum.TextXAlignment.Left
+
+KillGUI.Name = "KillGUI"
+KillGUI.Parent = Frame
+KillGUI.BackgroundColor3 = Color3.fromRGB(255, 0, 4)
+KillGUI.BorderColor3 = Color3.fromRGB(0, 0, 0)
+KillGUI.BorderSizePixel = 3
+KillGUI.Position = UDim2.new(0.545614064, 0, 0.0370370373, 0)
+KillGUI.Size = UDim2.new(0, 200, 0, 50)
+KillGUI.Font = Enum.Font.SourceSans
+KillGUI.Text = "Kill GUI"
+KillGUI.TextColor3 = Color3.fromRGB(0, 0, 0)
+KillGUI.TextScaled = true
+KillGUI.TextSize = 14.000
+KillGUI.TextWrapped = true
 
 Dex.Name = "Dex"
 Dex.Parent = MainFrame
@@ -116,6 +135,62 @@ IY.TextScaled = true
 IY.TextSize = 14.000
 IY.TextWrapped = true
 
+JBAutorob.Name = "JBAutorob"
+JBAutorob.Parent = MainFrame
+JBAutorob.BackgroundColor3 = Color3.fromRGB(156, 156, 156)
+JBAutorob.BorderColor3 = Color3.fromRGB(0, 0, 0)
+JBAutorob.BorderSizePixel = 5
+JBAutorob.Position = UDim2.new(0.0368421078, 0, 0.338422388, 0)
+JBAutorob.Size = UDim2.new(0, 165, 0, 39)
+JBAutorob.Font = Enum.Font.Code
+JBAutorob.Text = "Jailbreak AutoRob"
+JBAutorob.TextColor3 = Color3.fromRGB(0, 0, 0)
+JBAutorob.TextScaled = true
+JBAutorob.TextSize = 14.000
+JBAutorob.TextWrapped = true
+
+ArsenalGUI.Name = "ArsenalGUI"
+ArsenalGUI.Parent = MainFrame
+ArsenalGUI.BackgroundColor3 = Color3.fromRGB(156, 156, 156)
+ArsenalGUI.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ArsenalGUI.BorderSizePixel = 5
+ArsenalGUI.Position = UDim2.new(0.677192986, 0, 0.338422388, 0)
+ArsenalGUI.Size = UDim2.new(0, 165, 0, 39)
+ArsenalGUI.Font = Enum.Font.Code
+ArsenalGUI.Text = "Arsenal GUI"
+ArsenalGUI.TextColor3 = Color3.fromRGB(0, 0, 0)
+ArsenalGUI.TextScaled = true
+ArsenalGUI.TextSize = 14.000
+ArsenalGUI.TextWrapped = true
+
+JailbreakGUI.Name = "JailbreakGUI"
+JailbreakGUI.Parent = MainFrame
+JailbreakGUI.BackgroundColor3 = Color3.fromRGB(156, 156, 156)
+JailbreakGUI.BorderColor3 = Color3.fromRGB(0, 0, 0)
+JailbreakGUI.BorderSizePixel = 5
+JailbreakGUI.Position = UDim2.new(0.356140345, 0, 0.478371501, 0)
+JailbreakGUI.Size = UDim2.new(0, 165, 0, 39)
+JailbreakGUI.Font = Enum.Font.Code
+JailbreakGUI.Text = "Jailbreak GUI"
+JailbreakGUI.TextColor3 = Color3.fromRGB(0, 0, 0)
+JailbreakGUI.TextScaled = true
+JailbreakGUI.TextSize = 14.000
+JailbreakGUI.TextWrapped = true
+
+RamenJBGUI.Name = "RamenJBGUI"
+RamenJBGUI.Parent = MainFrame
+RamenJBGUI.BackgroundColor3 = Color3.fromRGB(156, 156, 156)
+RamenJBGUI.BorderColor3 = Color3.fromRGB(0, 0, 0)
+RamenJBGUI.BorderSizePixel = 5
+RamenJBGUI.Position = UDim2.new(0.0368421078, 0, 0.478371501, 0)
+RamenJBGUI.Size = UDim2.new(0, 165, 0, 39)
+RamenJBGUI.Font = Enum.Font.Code
+RamenJBGUI.Text = "Ramen's Jailbreak GUI"
+RamenJBGUI.TextColor3 = Color3.fromRGB(0, 0, 0)
+RamenJBGUI.TextScaled = true
+RamenJBGUI.TextSize = 14.000
+RamenJBGUI.TextWrapped = true
+
 Open.Name = "Open"
 Open.Parent = AmBonaGUI
 Open.BackgroundColor3 = Color3.fromRGB(106, 106, 106)
@@ -130,7 +205,7 @@ Open.TextScaled = true
 Open.TextSize = 14.000
 Open.TextWrapped = true
 
-local function FKPGJGT_fake_script()
+local function NEPC_fake_script()
 	local script = Instance.new('LocalScript', CloseButton)
 
 	script.Parent.MouseButton1Click:connect(function()
@@ -138,46 +213,86 @@ local function FKPGJGT_fake_script()
 		script.Parent.Parent.Parent.Parent.Open.Visible = true
 	end)
 end
-coroutine.wrap(FKPGJGT_fake_script)()
-local function LRQCZPH_fake_script()
+coroutine.wrap(NEPC_fake_script)()
+local function XZYL_fake_script()
+	local script = Instance.new('LocalScript', KillGUI)
+
+	script.Parent.MouseButton1Click:connect(function()
+		script.Parent.Parent.Parent.Parent:Destroy()
+	end)
+end
+coroutine.wrap(XZYL_fake_script)()
+local function XTFMOV_fake_script()
 	local script = Instance.new('LocalScript', Dex)
 
 	script.Parent.MouseButton1Click:connect(function()
 		loadstring(game:GetObjects("rbxassetid://418957341")[1].Source)()
 	end)
 end
-coroutine.wrap(LRQCZPH_fake_script)()
-local function FAUTZ_fake_script()
+coroutine.wrap(XTFMOV_fake_script)()
+local function PFKXLMJ_fake_script()
 	local script = Instance.new('LocalScript', MainFrame)
 
 	script.Parent.Draggable = true
 end
-coroutine.wrap(FAUTZ_fake_script)()
-local function KPSX_fake_script()
+coroutine.wrap(PFKXLMJ_fake_script)()
+local function ZMWXYMJ_fake_script()
 	local script = Instance.new('LocalScript', Fathom)
 
 	script.Parent.MouseButton1Click:connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/UmhaEvTT",true))()
 	end)
 end
-coroutine.wrap(KPSX_fake_script)()
-local function GOKJZET_fake_script()
+coroutine.wrap(ZMWXYMJ_fake_script)()
+local function RXCBCHV_fake_script()
 	local script = Instance.new('LocalScript', PFHAXX)
 
 	script.Parent.MouseButton1Click:connect(function()
 		loadstring(game:HttpGet("https://pastebin.com/raw/XwQciZ4y", true))()
 	end)
 end
-coroutine.wrap(GOKJZET_fake_script)()
-local function CICIE_fake_script()
+coroutine.wrap(RXCBCHV_fake_script)()
+local function WLTSDEY_fake_script() 
 	local script = Instance.new('LocalScript', IY)
 
 	script.Parent.MouseButton1Click:connect(function()
 		loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
 	end)
 end
-coroutine.wrap(CICIE_fake_script)()
-local function HCBHN_fake_script()
+coroutine.wrap(WLTSDEY_fake_script)()
+local function BKIG_fake_script()
+	local script = Instance.new('LocalScript', JBAutorob)
+
+	script.Parent.MouseButton1Click:connect(function()
+		loadstring(game:GetObjects("rbxassetid://1461971147")[1].Source)()
+	end)
+end
+coroutine.wrap(BKIG_fake_script)()
+local function AOUAYI_fake_script()
+	local script = Instance.new('LocalScript', ArsenalGUI)
+
+	script.Parent.MouseButton1Click:connect(function()
+		loadstring(game:HttpGet('https://pastebin.com/raw/T3fzg7tm', true))()
+	end)
+end
+coroutine.wrap(AOUAYI_fake_script)()
+local function SEZS_fake_script() 
+	local script = Instance.new('LocalScript', JailbreakGUI)
+
+	script.Parent.MouseButton1Click:connect(function()
+		 loadstring(game:GetObjects("rbxassetid://3473939051")[1].Source)()
+	end)
+end
+coroutine.wrap(SEZS_fake_script)()
+local function GEKAPKA_fake_script()
+	local script = Instance.new('LocalScript', RamenJBGUI)
+
+	script.Parent.MouseButton1Click:connect(function()
+		 loadstring(game:HttpGet(('https://pastebin.com/raw/Kpr8StVp'),true))()
+	end)
+end
+coroutine.wrap(GEKAPKA_fake_script)()
+local function EHGVJD_fake_script()
 	local script = Instance.new('LocalScript', Open)
 
 	script.Parent.Draggable = true
@@ -187,8 +302,8 @@ local function HCBHN_fake_script()
 		script.Parent.Parent.MainFrame.Visible = true
 	end)
 end
-coroutine.wrap(HCBHN_fake_script)()
-local function CHPU_fake_script()
+coroutine.wrap(EHGVJD_fake_script)()
+local function JWCZ_fake_script()
 	local script = Instance.new('LocalScript', AmBonaGUI)
 
 	local blur = Instance.new("BlurEffect", game.Lighting)
@@ -203,4 +318,4 @@ local function CHPU_fake_script()
 		blur.Enabled = false
 	end)
 end
-coroutine.wrap(CHPU_fake_script)()
+coroutine.wrap(JWCZ_fake_script)()
